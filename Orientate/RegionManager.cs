@@ -4,7 +4,8 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
-public class RegionManager : MonoBehaviour
+using RegionSwitch;
+    public class RegionManager : MonoBehaviour
 {
     public static RegionManager Instence;
     public RegionDataObject regionObj;
